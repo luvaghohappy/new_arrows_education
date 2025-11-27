@@ -3,7 +3,7 @@ import React from "react";
 
 export default function WhoWeServe() {
   return (
-    <section className="w-full bg-gray-50 py-24 flex flex-col items-center">
+    <section className="w-full bg-gray-50 py-18 flex flex-col items-center">
 
       {/* Transparent Button */}
       <button className="border border-orange-500 text-orange-500 bg-transparent px-6 py-2 rounded-full font-medium hover:bg-orange-50 transition">
@@ -81,9 +81,6 @@ export default function WhoWeServe() {
             Patner with Us →
           </button>
         </div>
-
-
-
 
       </div>
     </section>

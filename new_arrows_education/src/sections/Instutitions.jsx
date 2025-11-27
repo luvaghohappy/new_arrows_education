@@ -1,7 +1,7 @@
 
 export default function Institutions() {
   return (
-    <section className="w-full py-20 px-6 md:px-16 bg-white ">
+    <section className="w-full py-12 px-6 md:px-16 bg-white ">
       <div className="max-w-7xl mx-auto flex flex-col gap-10 items-center">
         
         {/* Green transparent button */}
@@ -55,6 +55,25 @@ export default function Institutions() {
           <img
             src="https://www.arrowstransactions.com/wp-content/uploads/2021/04/UManitoba.png"
             alt="Partner 6"
+            className="h-16 w-auto object-contain"
+          />
+            {/* LOGO 7 */}
+          <img
+            src="https://arrowstransactions.com/wp-content/uploads/2021/04/PBB.png"
+            alt="Partner 7"
+            className="h-16 w-auto object-contain"
+          />
+
+            {/* LOGO 8 */}
+          <img
+            src="https://www.arrowstransactions.com/wp-content/uploads/2021/04/Brock-Logo.png"
+            alt="Partner 8"
+            className="h-16 w-auto object-contain"
+          />
+            {/* LOGO 9 */}
+          <img
+            src="https://www.arrowstransactions.com/wp-content/uploads/2021/04/LEA-Logo.jpg"
+            alt="Partner 9"
             className="h-16 w-auto object-contain"
           />
 

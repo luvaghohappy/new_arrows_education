@@ -3,7 +3,7 @@ import chooseUsImg from "../assets/story1.jpg";
 
 export default function WhyChooseUsSection() {
     return (
-        <section className="w-full bg-gray-50 py-20 px-6 md:px-16 bg-white">
+        <section className="w-full bg-gray-50 py-12 px-6 md:px-16 bg-white">
             <div className="flex flex-col lg:flex-row items-start gap-16">
 
                 {/* LEFT SIDE */}
