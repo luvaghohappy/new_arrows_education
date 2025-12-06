@@ -1,10 +1,11 @@
 // File: src/pages/ContactPage.jsx
 import React from "react";
 import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
+import Footer from "../components/Footer";
 
 export default function ContactPage() {
     return (
-        <div className="w-full bg-white px-6 py-20">
+        <div className="w-full bg-white px-6 ">
 
             {/* ---------------------------- */}
             {/* HEADER */}
@@ -121,7 +122,7 @@ export default function ContactPage() {
 
                 </form>
             </div>
-
+         <Footer />
         </div>
     );
 }

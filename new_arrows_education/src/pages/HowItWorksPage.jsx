@@ -5,6 +5,7 @@ import sampleImage2 from "../assets/story1.jpg";
 import agent from "../assets/agent.jpg";
 import institutions from "../assets/institut.jpg";
 import { FiZap, FiShield, FiHeadphones, FiTrendingUp } from "react-icons/fi";
+import Footer from "../components/Footer";
 
 
 export default function HowItWorks() {
@@ -352,7 +353,7 @@ export default function HowItWorks() {
                     </div>
                 </div>
             </section>
-
+          <Footer />
         </div>
     );
 }

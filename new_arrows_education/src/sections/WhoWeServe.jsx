@@ -1,5 +1,7 @@
 // File: src/sections/WhoWeServe.jsx
 import React from "react";
+import { FaUserGraduate, FaUserTie, FaUniversity } from "react-icons/fa";
+
 
 export default function WhoWeServe() {
   return (
@@ -24,21 +26,22 @@ export default function WhoWeServe() {
       {/* Cards */}
       <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-8 px-4 max-w-6xl w-full">
 
-        {/* Card 1 */}
         {/* Card 1: Students */}
         <div className="bg-white shadow-lg rounded-2xl p-8 h-[320px] flex flex-col relative">
 
           {/* Profile Circle */}
-          <div className="absolute -top-6 left-6 bg-green-100 w-14 h-14 rounded-full flex items-center justify-center shadow-md">
-            <span className="text-white text-2xl">👨‍🎓</span>
+          <div className="absolute -top-6 left-6 bg-green-300 w-14 h-14 rounded-full flex items-center justify-center shadow-md">
+            <FaUserGraduate className="text-white text-2xl" />
           </div>
 
           {/* Title */}
           <h2 className="text-black text-2xl font-semibold mt-10 mb-1">Students</h2>
           <div className="w-12 h-1 bg-green-500 rounded mb-4"></div>
+
           <p className="text-gray-600 mb-4 flex-grow">
-            Get AI-powered university recommendations and streamlined applications
+            Get AI-powered university recommendations and streamlined applications.
           </p>
+
           <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-semibold transition">
             Get Started →
           </button>
@@ -48,16 +51,18 @@ export default function WhoWeServe() {
         <div className="bg-white shadow-lg rounded-2xl p-8 h-[320px] flex flex-col relative">
 
           {/* Profile Circle */}
-          <div className="absolute -top-6 left-6 bg-green-100 w-14 h-14 rounded-full flex items-center justify-center shadow-md">
-            <span className="text-white text-2xl">🧑‍💼</span>
+          <div className="absolute -top-6 left-6 bg-green-300 w-14 h-14 rounded-full flex items-center justify-center shadow-md">
+            <FaUserTie className="text-white text-2xl" />
           </div>
 
           {/* Title */}
           <h2 className="text-black text-2xl font-semibold mt-10 mb-1">Agents</h2>
           <div className="w-12 h-1 bg-green-500 rounded mb-4"></div>
+
           <p className="text-gray-600 mb-4 flex-grow">
-            Manage students and earn commission on successful placements
+            Manage students and earn commission on successful placements.
           </p>
+
           <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-semibold transition">
             Join as Agent →
           </button>
@@ -67,22 +72,24 @@ export default function WhoWeServe() {
         <div className="bg-white shadow-lg rounded-2xl p-8 h-[320px] flex flex-col relative">
 
           {/* Profile Circle */}
-          <div className="absolute -top-6 left-6 bg-green-100 w-14 h-14 rounded-full flex items-center justify-center shadow-md">
-            <span className="text-white text-2xl">🏫</span>
+          <div className="absolute -top-6 left-6 bg-green-300 w-14 h-14 rounded-full flex items-center justify-center shadow-md">
+            <FaUniversity className="text-white text-2xl" />
           </div>
 
           {/* Title */}
           <h2 className="text-black text-2xl font-semibold mt-10 mb-1">Institutions</h2>
           <div className="w-12 h-1 bg-green-500 rounded mb-4"></div>
+
           <p className="text-gray-600 mb-4 flex-grow">
-            Access qualified internationnal students and manage applications efficiently.
+            Access qualified international students and manage applications efficiently.
           </p>
+
           <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-semibold transition">
-            Patner with Us →
+            Partner with Us →
           </button>
         </div>
 
-      </div>
-    </section>
+    </div>
+    </section >
   );
 }

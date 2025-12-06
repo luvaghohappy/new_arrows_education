@@ -1,6 +1,7 @@
 // File: src/pages/AboutPage.jsx
 import React from "react";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+import Footer from "../components/Footer";
 
 export default function AboutPage() {
     const stats = [
@@ -165,7 +166,7 @@ export default function AboutPage() {
                             <p className="text-orange-600">{member.title}</p>
 
                             {/* SOCIAL ICONS */}
-                            <div className="flex space-x-4 justify-center mt-4 text-2xl text-gray-500">
+                            <div className="flex space-x-4 justify-center mt-4 text-2xl text-gray-500 ">
                                 {/* Facebook */}
                                 <a href="#" className="hover:text-blue-600">
                                     <FaFacebook size={24} />
@@ -185,22 +186,9 @@ export default function AboutPage() {
                     ))}
                 </div>
 
-                {/* CTA CARD */}
-                <div className="bg-green-900 text-white rounded-2xl p-12 mt-20 text-center">
-                    <h3 className="text-3xl font-bold">
-                        It's time to invest in your future through Global Education
-                    </h3>
-                    <p className="mt-4 text-gray-200">
-                        Start your journey today with expert guidance and international connections.
-                    </p>
-
-                    <button className="mt-8 bg-white text-green-800 px-8 py-3 rounded-full font-semibold hover:bg-gray-200">
-                        Get Started →
-                    </button>
-                </div>
-
             </section>
-
+          <Footer />
         </div>
+    
     );
 }

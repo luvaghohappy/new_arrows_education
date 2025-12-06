@@ -24,7 +24,7 @@ export default function BlogSection() {
   ];
 
   return (
-    <section className="w-full py-24 px-6 md:px-16 bg-white">
+    <section className="w-full px-6 md:px-16 bg-white">
 
       {/* BLOG POST Badge */}
       <div className="mb-3">

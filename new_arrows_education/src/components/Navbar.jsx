@@ -33,9 +33,12 @@ export default function Navbar() {
                         <button className="bg-white rounded px-4 py-2 border border-black text-black hover:bg-gray-100">
                             Login
                         </button>
-                        <button className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-800">
+                        <Link
+                            to="/signup"
+                            className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-800"
+                        >
                             Sign Up
-                        </button>
+                        </Link>
                     </div>
 
                     {/* Mobile Menu Button */}

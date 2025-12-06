@@ -11,6 +11,7 @@ import Testimonials from "../sections/Testimonials";
 import FASection from "../sections/FASection";
 import WebinarSection from "../sections/WebinarSection";
 import BlogSection from "../sections/BlogSection";
+import Footer from "../components/Footer";
 
 
 export default function Homepage() {
@@ -27,6 +28,7 @@ export default function Homepage() {
       <FASection />
       <WebinarSection />
       <BlogSection />
+      <Footer />
       
     </div>
   );
